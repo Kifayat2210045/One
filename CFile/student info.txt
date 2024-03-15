@@ -1,0 +1,12 @@
+name: rabeya
+age: 21
+roll: 2210001
+mark: 20
+name: nibir
+age: 21
+roll: 2210002
+mark: 7
+name: rifat
+age: 21
+roll: 2210003
+mark: 10
