@@ -3,16 +3,18 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int a, b, k;
+    cin >> a >> b >> k;
+    int c = 0;
+    for (int i = a; i <= b; i++)
     {
-        int x, y;
-        cin >> x >> y;
-        
-        int c = (y - (x % y)) % y;
-        
-        cout << c << endl;
+        for (int j = a; j <= b; j++)
+        {
+            if (i * j <= k)
+            {
+                c++;
+            }
+        }
     }
-    return 0;
+    cout << c << endl;
 }
