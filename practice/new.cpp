@@ -1,35 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-const int MX = 100 + 5;
+#define lld long double
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        map<int, int> occ;
-        for (int i = 1; i <= n; ++i)
-        {
-            int x;
-            cin >> x;
-            occ[x]++;
-        }
-        if (occ.size() >= 3)
-            puts("No");
-        else
-        {
-            if (abs((*occ.begin()).second - (*occ.rbegin()).second) <= 1)
-            {
-                puts("Yes");
-            }
-            else
-            {
-                puts("No");
-            }
-        }
-    }
+    lld s, acc, v;
+    cin >> s >> acc >> v;
+    lld a = acc / 2;
+    lld b = -v;
+    lld c = -s;
+    lld x = b * b - 4 * a * c;
+    int t = (-b + sqrt(x)) / (2 * a);
+    cout << t << endl;
     return 0;
 }
