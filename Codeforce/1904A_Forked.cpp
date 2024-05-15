@@ -10,10 +10,10 @@ int main()
         int a, b, xk, yk, xq, yq;
         cin >> a >> b >> xk >> yk >> xq >> yq;
 
-        vector<pair<int, int> > dir = {make_pair(a, b), make_pair(a, -b), make_pair(-a,b), make_pair(-a,-b), make_pair(b,a),make_pair(b,-a),make_pair(-b,a),make_pair(-b,-a)};
+        vector<pair<int, int> > dir = { {a, b}, {a, -b}, {-a, b}, {-a, -b}, {b, a}, {b, -a}, {-b, a}, {-b, -a} };
         set<pair<int, int> > dirK, dirQ;
 
-        for (auto d : dirK)
+        for (auto d : dir)
         {
             int x = xk + d.first;
             int y = yk + d.second;
