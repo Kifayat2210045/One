@@ -1,11 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-    vector<int> dir = {1,2,3,4,5};
-    for (auto d : dir)
+#define yes cout<< <<endl
+#define no cout<< <<endl
+#define ll long long
+#define ull unsigned long long
+#define vll vector<ll>
+
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
     {
-        cout<<d<<endl;
+        
     }
-    return 0;
 }
