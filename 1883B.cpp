@@ -18,14 +18,6 @@ int main()
     cin>>t;
     while(t--)
     {
-        vector<int> v(3);
-        cin >> v[0] >> v[1] >> v[2];
-        if ((v[0] + v[1] + v[2]) % 2 == 1)
-        {
-            cout << "-1\n";
-            continue;
-        }
-        cout << (v[0] + v[1] + v[2] - max(0, v[2] - v[0] - v[1])) / 2 << "\n";
+        
     }
-    
 }

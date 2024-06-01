@@ -4,6 +4,9 @@
         "__tuple": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "vector": "cpp"
-    }
+        "vector": "cpp",
+        "ios": "cpp",
+        "tuple": "cpp"
+    },
+    "cph.general.saveLocation": ""
 }
