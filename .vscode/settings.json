@@ -6,7 +6,9 @@
         "ostream": "cpp",
         "vector": "cpp",
         "ios": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "regex": "cpp",
+        "span": "cpp"
     },
     "cph.general.saveLocation": ""
 }
