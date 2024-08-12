@@ -31,6 +31,5 @@ int main()
             add += a - c;
             cout << abs(add) << nl;  
         }
-            
     }
 }
