@@ -1,25 +1,25 @@
-#include <iostream>
-#include <vector>
-#include <algorithm> // for std::find
+#include<bits/stdc++.h>
+using namespace std;
 
-int main() {
-    // Define a vector
-    std::vector<int> vec = {10, 20, 30, 40, 50};
-    
-    // Element to find
-    int element = 30;
-    
-    // Use std::find to get an iterator to the element
-    auto it = std::find(vec.begin(), vec.end(), element);
-    
-    // Check if the element was found
-    if (it != vec.end()) {
-        // Calculate the index (position) of the element
-        int index = std::distance(vec.begin(), it);
-        std::cout << "Element " << element << " is at position: " << index << std::endl;
-    } else {
-        std::cout << "Element " << element << " not found in the vector." << std::endl;
+#define nl "\n"
+#define yes cout<< "YES" <<nl
+#define no cout<< "NO" <<nl
+#define ll long long int
+#define ull unsigned long long
+#define vll vector<ll>
+#define vint vector<int>
+#define debug(x) cout<<x<<nl
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int x;
+        cin>>x;
     }
-    
-    return 0;
 }
